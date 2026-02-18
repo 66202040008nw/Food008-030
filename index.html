@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เมนูอาหาร OOP</title>
+    
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>🍽️ เมนูอาหาร OOP</h1>
+        
+        <label>เลือกเมนู:</label>
+        <select id="food_selector">
+            <option value="pizza">พิซซ่า (Pizza)</option>
+            <option value="sushi">ซูชิ (Sushi)</option>
+            <option value="burger">เบอร์เกอร์ (Burger)</option>
+            <option value="icecream">ไอศกรีม (Ice Cream)</option>
+        </select>
+        <br>
+
+        <button id="btn_sound">🔊 อธิบายเมนู</button>
+
+        <div id="output"></div>
+        
+    </div>
+
+    <!-- เปลี่ยนชื่อไฟล์ถ้าคุณใช้ food.py -->
+    <script type="py" src="./food.py"></script>
+
+
+</body>
+</html>
